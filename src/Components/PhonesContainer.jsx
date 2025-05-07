@@ -19,7 +19,7 @@ const PhonesContainer = ({ phones }) => {
     // console.log(phones);
     return (
         <div className='py-12'>
-            <div className='flex flex-col justify-center text-center mx-36 my-8 gap-4   items-center'>
+            <div className='flex flex-col justify-center text-center lg:mx-36 lg:my-8 my-4 gap-4   items-center'>
 
                 <h1 className='font-bold text-4xl'>Our Best Lawyers</h1>
                 <p className='text-xl'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>

@@ -8,9 +8,9 @@ import Button from './ui/Button';
 const PhoneCard = ({ phone, deletable, handleDelete }) => {
     const { name, availability, experience, expertness, licenseNo, description, image, id } = phone || {}
     return (
-        <div className="border flex flex-row p-4 gap-16 rounded-2xl card bg-base-100 shadow-sm">
+        <div className="border flex flex-row p-4 lg:gap-12 gap-2 rounded-2xl card bg-base-100 shadow-2xl">
             <figure>
-                <img className='rounded-2xl'
+                <img className='rounded-2xl shadow-2xl'
                     src={image}
                     alt="Shoes" />
             </figure>

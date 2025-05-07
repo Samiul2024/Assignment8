@@ -10,19 +10,18 @@ const Navbar = () => {
     // console.log(cart);
     return (
         <>
-            <div className="navbar  bg-base-100 shadow-sm max-w-screen-2xl mx-auto xl:px-24">
-                <div className="navbar-start ">
-                    
-                    <div className='flex lg:flex-row'>
-                    <Link to='/' className="font-bold flex gap-4 text-xl">
-                        <img src="/logo.png" alt="Law.Bd Logo" className="w-8 h-8" />
-                        Law.Bd
-                    </Link>
-                    </div>
-                </div>
+            <div className='flex  justify-between items-center py-4 px-6 mx-8 lg:mx-24'>
+                <div>
+                    <Link to='/'>
+                        <div className='flex items-center justify-center lg:gap-4'>
 
-                <div className="navbar-end flex justify-between hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                            <img src="/logo.png" alt="logo" />
+                            <h1 className='text-3xl font-bold'>Law.BD</h1>
+                        </div>
+                    </Link>
+                </div>
+                <div>
+                    <ul className='flex justify-between items-center gap-4 lg:gap-16'>
                         <li>
                             <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/'>Home</NavLink>
                         </li>
@@ -37,18 +36,15 @@ const Navbar = () => {
                         <li className='relative'>
                             <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/cart'>
                                 Contact Us
-                                <p>{cart.length}</p>
+                                <p>{cart}</p>
 
                             </NavLink>
                         </li>
-
-
                     </ul>
                 </div>
-                <Button label='Contact Now' />
-                <div>
-                </div>
+                <Button label='Contact Us'/>
             </div>
+            
         </>
     );
 };
