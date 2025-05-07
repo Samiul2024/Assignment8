@@ -16,7 +16,7 @@ const PhoneCard = ({ phone, deletable, handleDelete }) => {
             </figure>
             <div className="card-body">
                 <div className='flex gap-3'>
-                    <h1 className='bg-base-300 rounded-4xl px-4 text-amber-500 py-1'>
+                    <h1 className='bg-base-300 rounded-3xl px-2 py-2 text-amber-500  text-center'>
                         {availability ? 'Available' : 'Not available'}
                     </h1>
                     <h1 className='bg-base-300 rounded-4xl px-3 py-1 text-blue-500 '>

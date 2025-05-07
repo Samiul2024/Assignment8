@@ -1,6 +1,6 @@
 [
   {
-    "id": "law001",
+    "id": 1,
     "name": "Dr. Kamal Hossain",
     "expertness": "Constitutional Law",
     "licenseNo": "BD-1960-001",
@@ -12,7 +12,7 @@
     "bio": "Dr. Kamal Hossain is a prominent lawyer and politician, known as the principal architect of Bangladesh's Constitution. He has served as the Minister of Law, Foreign Affairs, and Energy."
   },
   {
-    "id": "law002",
+    "id": 2,
     "name": "Barrister Rafique-ul Huq",
     "expertness": "Corporate & Constitutional Law",
     "licenseNo": "BD-1965-002",
@@ -24,8 +24,8 @@
     "bio": "Barrister Rafique-ul Huq was a senior advocate of the Supreme Court and served as the Attorney General of Bangladesh. He was renowned for his expertise in corporate and constitutional matters."
   },
   {
-    "id": "law003",
-    "name": "Abdul Baset Majumder",
+    "id": 3,
+    "name": "Saiful Islam",
     "expertness": "Criminal & Civil Law",
     "licenseNo": "BD-1970-003",
     "available": ["Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -36,19 +36,19 @@
     "bio": "Abdul Baset Majumder was a senior lawyer who served as the Vice-President of the Bangladesh Bar Council and President of the Supreme Court Bar Association."
   },
   {
-    "id": "law004",
+    "id": 4,
     "name": "Mahbubey Alam",
     "expertness": "Constitutional & Administrative Law",
     "licenseNo": "BD-1975-004",
     "available": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-    "availability": false,
+    "availability": true,
     "experience": "7+ Years",
     "image": "https://i.ibb.co.com/qLLq5m4q/images-3.jpg",
     "consultationFee": 4200,
     "bio": "Mahbubey Alam served as the Attorney General of Bangladesh from 2009 until his passing in 2020, known for his contributions to constitutional and administrative law."
   },
   {
-    "id": "law005",
+    "id": 5,
     "name": "Anisul Huq",
     "expertness": "Criminal Law",
     "licenseNo": "BD-1985-005",
@@ -60,19 +60,19 @@
     "bio": "Anisul Huq is a prominent lawyer and politician, currently serving as the Minister for Law, Justice, and Parliamentary Affairs in Bangladesh."
   },
   {
-    "id": "law006",
+    "id": 6,
     "name": "Shahdeen Malik",
     "expertness": "Constitutional & Human Rights Law",
     "licenseNo": "BD-1990-006",
     "available": ["Monday", "Tuesday", "Wednesday"],
-    "availability": false,
+    "availability": true,
     "experience": "4+ Years",
     "image": "https://i.ibb.co.com/nMJJ2B2v/images-1.jpg",
     "consultationFee": 3500,
     "bio": "Dr. Shahdeen Malik is a senior advocate of the Supreme Court and an academic, known for his work in constitutional law and human rights."
   },
   {
-    "id": "law007",
+    "id": 7,
     "name": "Monjil Morshed",
     "expertness": "Public Interest Litigation",
     "licenseNo": "BD-1995-007",
@@ -84,7 +84,7 @@
     "bio": "Monjil Morshed is known for his work in public interest litigation, focusing on environmental and human rights issues."
   },
   {
-    "id": "law008",
+    "id": 8,
     "name": "Zainul Abedin",
     "expertness": "Criminal Law",
     "licenseNo": "BD-1980-008",
@@ -96,7 +96,7 @@
     "bio": "Zainul Abedin is a senior lawyer who has served as the President of the Bangladesh Supreme Court Bar Association."
   },
   {
-    "id": "law009",
+    "id": 9,
     "name": "A.M. Mahbub Uddin Khokon",
     "expertness": "Corporate & Commercial Law",
     "licenseNo": "BD-1992-009",
@@ -108,7 +108,7 @@
     "bio": "A.M. Mahbub Uddin Khokon is a prominent lawyer and politician, known for his expertise in corporate and commercial law."
   },
   {
-    "id": "law010",
+    "id": 10,
     "name": "Shamsud Doulah",
     "expertness": "Corporate & Intellectual Property Law",
     "licenseNo": "BD-2000-010",
@@ -120,7 +120,7 @@
     "bio": "Shamsud Doulah is a leading lawyer in corporate and intellectual property law, representing numerous local and international clients."
   },
   {
-    "id": "law011",
+    "id": 11,
     "name": "Khan Khalid Adnan",
     "expertness": "Corporate & Commercial Law",
     "licenseNo": "BD-2005-011",
@@ -132,7 +132,7 @@
     "bio": "Barrister Khan Khalid Adnan is recognized for his work in corporate and commercial law, serving as the Head of Chambers at Khan Saifur Rahman & Associates."
   },
   {
-    "id": "law012",
+    "id": 12,
     "name": "Sanaullah Miah",
     "expertness": "Criminal Law",
     "licenseNo": "BD-1988-012",
