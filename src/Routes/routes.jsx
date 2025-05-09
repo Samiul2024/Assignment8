@@ -18,7 +18,7 @@ const router = createBrowserRouter([
                 path: '/',
 
                 element: <Home />,
-                hydrateFallbackElement:<p>Loading lawers , Please wait.....</p>,
+                hydrateFallbackElement: <h1 className="text-3xl text-center bg-amber-500 px-8">Loading lawers , Please wait.....</h1>,
                 loader: () => fetch('../lawers.json'),
             },
             {
@@ -26,16 +26,21 @@ const router = createBrowserRouter([
                 element:
                     <Favourites />,
                 // <p>Favourite items</p>
+                hydrateFallbackElement: <h1 className="text-3xl text-center bg-amber-500 px-8">Loading Appointment details , Please wait.....</h1>,
+                loader: () => fetch('../lawers.json'),
+
             },
             {
                 path: '/about',
                 element: <About />,
+                hydrateFallbackElement: <h1 className="text-3xl text-center bg-amber-500 px-8">Loading Lawer details , Please wait.....</h1>,
+                loader: () => fetch('../lawers.json'),
             },
 
             {
                 path: '/phone-details/:id',
                 element: <PhoneDetails />,
-                hydrateFallbackElement:<p>Loading Lawer details , Please wait.....</p>,
+                hydrateFallbackElement: <h1 className="text-3xl text-center bg-amber-500 px-8">Loading Lawer details , Please wait.....</h1>,
 
                 loader: () => fetch('../lawers.json'),
 

@@ -24,8 +24,10 @@ const Footer = () => {
                             </div>
                         </Link>
                     </div>
+
+                    {/* Nav Links starts */}
                     <div>
-                        <ul className='flex justify-between items-center gap-16'>
+                        <ul className='flex justify-between items-center gap-4 md:gap-16'>
                             <li>
                                 <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/'>Home</NavLink>
                             </li>
@@ -46,9 +48,10 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
+                    {/* Nav Links ends */}
 
                 </div>
-                <hr className='border border-1 border-dashed' />
+                <hr className='border border-1 border-dashed opacity-20 mx-20' />
                 {/* Social Icons */}
 
                 <div className='flex items-center justify-center-safe py-8'>

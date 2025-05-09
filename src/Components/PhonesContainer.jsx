@@ -24,7 +24,7 @@ const PhonesContainer = ({ phones }) => {
                 <h1 className='font-bold text-4xl'>Our Best Lawyers</h1>
                 <p className='text-xl'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8'>
+            <div className='grid grid-cols-1  lg:grid-cols-2 gap-8 mb-8'>
                 {
                     displayPhones.map(phone => (
                         <PhoneCard

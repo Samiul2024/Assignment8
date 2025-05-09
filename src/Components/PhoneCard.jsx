@@ -8,7 +8,7 @@ import Button from './ui/Button';
 const PhoneCard = ({ phone, deletable, handleDelete }) => {
     const { name, availability, experience, expertness, licenseNo, description, image, id } = phone || {}
     return (
-        <div className="border flex flex-row p-4 lg:gap-12 gap-2 rounded-2xl card bg-base-100 shadow-2xl">
+        <div className="border flex items-center flex-col lg:flex-row p-4 lg:gap-12 gap-2 rounded-2xl card bg-base-100 shadow-2xl">
             <figure>
                 <img className='rounded-2xl shadow-2xl'
                     src={image}
@@ -38,15 +38,15 @@ const PhoneCard = ({ phone, deletable, handleDelete }) => {
                 </div>
             </div>
 
-            {
+            {/* {
                 deletable && (
                     <div onClick={() => handleDelete(id)}
-                        className='absolute -top-3 -right-3 bg-gray-900 p-3 ml-5 rounded-full hover:bg-gray-300 group cursor-pointer'>
-                        <MdDeleteForever size={35}
-                            className='text-gray-100 group-hover:text-gray-900'
-                        />
+                        className='   p-3 ml-5 rounded-3xl  group cursor-pointer'>
+                        <button size={35}
+                            className='btn text-red-900 bg-gray-300 font-semibold hover:bg-red-900 hover:text-white text-xl  '
+                        >Cancel Appointment</button>
                     </div>
-                )}
+                )} */}
         </div>
     );
 };

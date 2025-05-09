@@ -8,9 +8,9 @@ export const getFavourites = () => {
 export const addFavourite = phone => {
     const favourites = getFavourites()
     const isExist = favourites.find(p => p.id === phone.id)
-    if (isExist) return toast.error('Phone already added');
+    if (isExist) return toast.error(`Appointment with ${phone.name} Already Booked `);
     favourites.push(phone)
-    toast.success('Phone added to favourite successfully!!!')
+    toast.success(`Appointment with ${phone.name} Booked successfully!!!`)
     // console.log(favourites);
     localStorage.setItem('favourites', JSON.stringify(favourites))
 }
@@ -19,7 +19,7 @@ export const removeFavourites = id => {
     const favourites = getFavourites()
     const remainingFavourites = favourites.filter(phone => phone.id !== id)
     localStorage.setItem('favourites', JSON.stringify(remainingFavourites))
-    toast.success('Phone removed from Favourites !!!')
+    toast.error(`Appointment  canceled !!!`)
 }
 
 

@@ -20,8 +20,8 @@ const Navbar = () => {
                         </div>
                     </Link>
                 </div>
-                <div>
-                    <ul className='flex justify-between items-center gap-4 lg:gap-16'>
+                <div className='hidden md:block'>
+                    <ul className='flex justify-between items-center gap-4   lg:gap-16'>
                         <li>
                             <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/'>Home</NavLink>
                         </li>
