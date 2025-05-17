@@ -32,15 +32,15 @@ const Footer = () => {
                                 <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/'>Home</NavLink>
                             </li>
                             <li>
-                                <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/favourites'>
+                                <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/bookings'>
                                     My-Bookings
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/about'>Blogs</NavLink>
+                                <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/blogs'>Blogs</NavLink>
                             </li>
                             <li className='relative'>
-                                <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/cart'>
+                                <NavLink className={({ isActive }) => isActive ? 'bg-indigo-600' : ''} to='/contactUs'>
                                     Contact Us
                                     <p>{ }</p>
 

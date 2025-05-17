@@ -30,7 +30,7 @@ const BookedCard = ({ phone, deletable, handleDelete }) => {
                             <div onClick={() => handleDelete(id)}
                                 className=' rounded-3xl text-center cursor-pointer'>
                                 <button size={35}
-                                    className='btn text-red-900 lg:px-[545px] px-20 py-4 rounded-3xl  bg-gray-300 font-semibold hover:bg-red-900 hover:text-white text-xl  '
+                                    className='btn text-red-900 lg:px-[545px] px-20 py-8 lg:py-4 rounded-3xl  bg-gray-300 font-semibold hover:bg-red-900 hover:text-white text-xl  '
                                 >Cancel Appointment</button>
                             </div>
                         )}

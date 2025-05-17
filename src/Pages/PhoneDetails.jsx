@@ -119,7 +119,7 @@ const PhoneDetails = () => {
 
                 <Button onClick={() => {
                     handleFavourite();
-                    naviGate('/favourites');
+                    naviGate('/bookings');
 
                 }
                 } label='Book Appointment Now' />

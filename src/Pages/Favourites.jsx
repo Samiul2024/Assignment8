@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { getFavourites, removeFavourites } from '../utilis';
 import EmptyState from '../Components/ui/EmptyState';
 import BookedCard from '../Components/ui/BookedCard';
+import BarChartComponent from '../Components/BarChart';
 
 const Favourites = () => {
     const [displayPhones, setDisplayPhones] = useState([])
@@ -18,6 +19,7 @@ const Favourites = () => {
     if (displayPhones.length < 1) return <EmptyState />
     return (
         <div className='py-12 flex flex-col gap-16 '>
+            <BarChartComponent data={displayPhones} />
             <div className='flex gap-4 flex-col text-center justify-center items-center'>
                 <h1 className='font-bold text-4xl'>My Today Appointments</h1>
                 <p className='text-xl'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
